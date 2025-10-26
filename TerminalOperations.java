@@ -172,4 +172,11 @@ public class TerminalOperations {
         p.accept(result);
     }
 
+    // joining
+    static void questao18() {
+        List<String> list = List.of("Small", "Ismar");
+        String result = list.stream().collect(Collectors.joining(", "));
+        p.accept(result);
+    }
+
 }
